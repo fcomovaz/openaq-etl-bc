@@ -3,6 +3,8 @@
 
 ### For ETL folder
 
+> just run `main.py`, it will do everything for you to extract the data.
+
 The ETL process uses the OpenAQ API to extract the historical data of each station. A log file is generated called `etl_requests.log` to store the process information (give it a look when executing).
 
 | File  | Description |
@@ -38,4 +40,5 @@ The expected folder structure would be:
 │   └── .vars
 │       ├── openaq-key.txt
 │       └── stations.txt
+
 
