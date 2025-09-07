@@ -11,7 +11,7 @@ The ETL process uses the OpenAQ API to extract the historical data of each stati
 | `.vars/stations.txt` | List of stations to process (extracted from OpenAQ) |
 
 
-For example **235220** in the URL [https://explore.openaq.org/locations/235220](https://explore.openaq.org/locations/235220). Example in the content of `.vars/stations.txt` (list of station ids given by OpenAQ).
+For example **235220** in the URL [https://explore.openaq.org/locations/235220](https://explore.openaq.org/locations/235220) is an station id. Example in the content of `.vars/stations.txt` (list of station ids given by OpenAQ).
 ```
 12
 13
@@ -38,3 +38,4 @@ The expected folder structure would be:
 │   └── .vars
 │       ├── openaq-key.txt
 │       └── stations.txt
+
